@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 class minimumNumberinArray {
    public static void main(String[] args) {

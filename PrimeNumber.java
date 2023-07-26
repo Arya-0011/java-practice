@@ -10,6 +10,7 @@ public class PrimeNumber {
 		Scanner scan = new Scanner(System.in);
 		num = scan.nextInt();
 		System.out.println(prime(num));
+		scan.close();
 
 	}
 

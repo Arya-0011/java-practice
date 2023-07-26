@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 class ExceptionHanding {
@@ -14,7 +13,6 @@ class ExceptionHanding {
         System.out.println("You wrote: " + inData);
  
       } catch (Exception e) {
-        // TODO: handle exception
         System.out.println("You wrote: Hello");
       }
       
