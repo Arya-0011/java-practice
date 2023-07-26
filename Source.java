@@ -1,20 +1,22 @@
-class Source{
-    public static void main(String[] a){
-
-    //Create two objects of Square class 's1' and 's2'
-    Square s1 = new Square();
-    Square s2 = new Square();
-    s1.length = 10f;
-    s2.length = 20f;
-    //Calculate and print their areas after assigning values to their side lengths
-    System.out.println(s1.area());
-    System.out.println(s2.area());
+class Source {
+    public static void main(String[] args) {
+     Person p1 = new Person("kishan");
+        // Write code here
+        System.out.println(p1.getName());
+   
     }
-}
-
-class Square{
-    public float length;
-    public float area(){
-        return length * length;
+ }
+ 
+ class Person {
+    private String name;
+    public Person(String name) {       
+        this.name = name;
     }
-}
+ 
+    // Declare a getter method here
+    public String getName(){
+        return this.name;
+    }
+    
+ }
+ 
