@@ -1,4 +1,3 @@
-package com.upgrad.ecommerce.domain.v1;
 
 public class BrandV1 {
   
